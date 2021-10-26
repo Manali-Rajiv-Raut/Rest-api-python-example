@@ -19,7 +19,7 @@ app = Flask(__name__)
 # In[3]:
 
 
-@app.route('/', methods=['GET', 'POST'])
+@app.route('/mean', methods=['GET', 'POST'])
 def meaning_and_quotes():
     name = request.args.get('name',type = str)
     #print(name)
