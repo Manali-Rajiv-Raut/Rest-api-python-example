@@ -12,7 +12,7 @@ import random
 # In[2]:
 
 
-from flask import Flask ,jsonify ,request,redirect,url_for , make_response 
+from flask import Flask ,jsonify 
 app = Flask(__name__)
 
 
