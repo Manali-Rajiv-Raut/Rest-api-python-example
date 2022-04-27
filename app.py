@@ -44,8 +44,8 @@ def meaning_and_quotes():
     
     result = {
               "\n Greeting": "Welcome "+name, 
-              "\n Meaning of your name from initial charactor": "\n"+charactor_meaning, 
-              "\n Special quote for you": "\n"+quote,
+              "\n Meaning of your name from initial charactor":""+charactor_meaning, 
+              "\n Special quote for you": ""+quote,
         }
     return result
     
