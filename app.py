@@ -43,9 +43,9 @@ def meaning_and_quotes():
     quote = quote_data["Quotes"][random_num]
     
     result = {
-              "Greeting": "Welcome "+name, 
-              "Meaning of your name from initial charactor": "\n"+charactor_meaning, 
-              "Special quote for you": "\n"+quote,
+              "\n Greeting": "Welcome "+name, 
+              "\n Meaning of your name from initial charactor": "\n"+charactor_meaning, 
+              "\n Special quote for you": "\n"+quote,
         }
     return result
     
